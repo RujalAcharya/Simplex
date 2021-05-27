@@ -47,7 +47,7 @@ lm.optimize()
 Now, we can look at the optimized value of {x<sub>1</sub>,x<sub>2</sub>, ...} as a numpy array is returned by ``lm.optimizedSoln()`` method. \
 Similarly, we can look at the optimized value of F using ``lm.optimizedVal()`` method.
 
-You can also look at the [example program](example.py) to see how it is applied. 
+You can also look at the [example program](example.py) or [example notebook](examples.ipynb) to see how it is applied. 
 
 **Note:** Currently only maximization problems can be solved and minimization problems will soon be implemented as well. Further preetifying and visualization of simplex tableau is also planned to be implemented. \
 <sub>Feel free to review my code and roast me. I am just a dumbass.</sub>
