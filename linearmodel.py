@@ -15,13 +15,13 @@ class LinearModel:
         self.optimizedValue = 0
         self.optimizedVars = np.zeros(self.basicVariableNo)
 
-    def getA(self, A):
+    def setA(self, A):
         self.A = A
 
-    def getB(self, B):
+    def setB(self, B):
         self.B = B
 
-    def getC(self, C):
+    def setC(self, C):
         self.C = C
         self.basicVariableNo = self.C.size
 
