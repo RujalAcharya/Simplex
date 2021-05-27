@@ -10,5 +10,5 @@ lm.optimize()
 
 if __name__=="__main__":
     print(lm.tableau)
-    print(lm.optimizedSoln())
-    print(lm.optimizedVal())
+    print(lm.optimalSoln())
+    print(lm.optimalVal())

@@ -77,7 +77,7 @@ class LinearModel:
             self.simplex()
             self.checkOptimized()
 
-    def optimizedSoln(self):
+    def optimalSoln(self):
         if self.optimized:
             sol = np.zeros(self.solnVarNo)
             for i in range(self.solnVarNo):
@@ -86,7 +86,7 @@ class LinearModel:
             return sol
         return "The value is not optimized yet you fool"
 
-    def optimizedVal(self):
+    def optimalVal(self):
         if self.optimized:
             return self.tableau[-1, -1]
 
