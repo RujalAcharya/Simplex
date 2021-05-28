@@ -44,8 +44,8 @@ Now we can optimize the solution using
 ```py
 lm.optimize()
 ```
-Now, we can look at the optimized value of {x<sub>1</sub>,x<sub>2</sub>, ...} as a numpy array is returned by ``lm.optimizedSoln()`` method. \
-Similarly, we can look at the optimized value of F using ``lm.optimizedVal()`` method.
+Now, we can look at the optimized value of {x<sub>1</sub>,x<sub>2</sub>, ...} as a numpy array is returned by ``lm.optimalSoln()`` method. \
+Similarly, we can look at the optimized value of F using ``lm.optimialVal()`` method.
 
 You can also look at the [example program](example.py) or [example notebook](examples.ipynb) to see how it is applied. 
 
