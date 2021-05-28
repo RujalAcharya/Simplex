@@ -62,9 +62,8 @@ class LinearModel:
 
     def checkOptimized(self):
         if self.feasible:
-            optcheck = self.tableau[-1][:self.solnVarNo]
             self.optimized = True
-            for x in optcheck:
+            for x in self.tableau[-1][:-1]:
                 if x < 0:
                     self.optimized = False
 
